@@ -11,6 +11,7 @@ package aula08_erros;
 
  */
 
+
 public class NewException {
     public static void main (String [] args) {
         int[] numerador = {3, 4, 5, 8, 5, 16, 32, 21, 64, 128};

@@ -1,4 +1,6 @@
-package aula08_erros;/*
+package aula08_erros;
+
+/*
     algoritmo para tratar erros em java;
 
     - o algoritmo possui dois arrays, numerador com 8 posições e denominador com apenas 5 posições;
@@ -12,7 +14,6 @@ package aula08_erros;/*
     - já a classe Throwable é função raíz na hierarquia das exceções;
     - no caso do Throwable, o programa retorna a mensagem que o programador informar;
     - t.getMessage() retorna exatamente a mensagem apresentada nos possíveis erros ocorridos;
-
 
  */
 

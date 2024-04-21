@@ -21,6 +21,7 @@ import java.util.Scanner;
 
  */
 
+
 public class Throws {
     public static double lerNumero() throws Exception {
         Scanner sc = new Scanner(System.in).useLocale(Locale.US);

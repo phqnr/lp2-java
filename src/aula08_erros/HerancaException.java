@@ -12,8 +12,6 @@ package aula08_erros;
 
  */
 
-
-
 public class HerancaException {
 
     public static class NaoInteiroException extends Exception {
