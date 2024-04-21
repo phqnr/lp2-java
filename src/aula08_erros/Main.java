@@ -25,13 +25,18 @@ public class Main {
         for (int i = 0; i < numerador.length; i++) {
             try {
                 System.out.println("Resultado: " + numerador[i]/denominador[i]);
-//            } catch (ArithmeticException e) {
-//                System.out.println("Erro! Não existe divisão por zero.");
+            } catch (ArithmeticException e) {
+                System.out.println("Erro! Não existe divisão por zero.");
 //            } catch (ArrayIndexOutOfBoundsException e) {
 //                System.out.println("Você tentou acessar uma posição inválida do array.");
-            } catch (Throwable t) {
-                System.out.println("Ocorreu um erro no programa. " + t.getMessage());
+////            } catch (Throwable t) {
+////                System.out.println("Ocorreu um erro no programa. " + t.getMessage());
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
             }
+//            } finally {
+//                System.out.println("O bloco finally sempre será executado, independemente do ter executado o 'try' ou o 'catch'.");
+//            }
         }
         System.out.println("Fim do programa.");
     }
