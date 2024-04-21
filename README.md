@@ -1,4 +1,4 @@
-<h1>Linguagem de Programação 2 - Java</h1>
+  <h1>Linguagem de Programação 2 - Java</h1>
   <subtile>Códigos desenvolvidos na disciplina de Linguagem de Programação 2 no IMD durante o semestre de 2024.1.
   </subtile>
   <hr>
@@ -56,5 +56,16 @@
     <ul>
       <li>Material da aula</li>
       <li>Códigos</li>
+    </ul>
+    <br>
+    <li>Avaliação 01 - Sistema de gerenciamento bibliotecário</li>
+    <p>Critérios avaliados: </p>
+    <ul>
+      <li>Uso correto de abstração e interfaces (1,5);</li>
+      <li>Construtores, polimorfismo e métodos get/set (1,0);</li>
+      <li>Uso de Collection (1,5);</li>
+      <li>Uso do padrão singleton (1,5);</li>
+      <li>Organização de classes e dos métodos (1,0);</li>
+      <li>Execução correta e clara dos códigos solicitados (1,5);</li>
     </ul>
   </ul>
